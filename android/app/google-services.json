@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "829824842225",
+    "project_id": "expressfood-bac7f",
+    "storage_bucket": "expressfood-bac7f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829824842225:android:54aaa062b24fae193fac50",
+        "android_client_info": {
+          "package_name": "com.expressfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQkla-jhyIOUlaLSvqbpfDO7sfC3L7obw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,45 +1,30 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+import React from 'react';
+import {View, Text, StyleSheet, StatusBar, SafeAreaView} from 'react-native';
+import {colors, parameters}  from './src/global/styles';
+import AuthStack from './src/navigation/AuthStack';
+import AppStack from './src/navigation/AppStack';
+import ClientStack from './src/navigation/ClientStack';
+import RootNavigator from './src/navigation/RootNavigator';
+import { SignInContextProvider } from './src/contexts/authContext'
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
-  );
-}
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
+export default function App(){
+  return(
+      <View style={styles.container}>
+          <StatusBar
+            barStyle='light-content'
+            backgroundColor = {colors.statusbar}
+          />
+          {/* <AppStack/> */}
+          <SignInContextProvider>
+            <RootNavigator />
+          </SignInContextProvider>
+      </View>
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-  },
-});
-
-export default App;
+    flex: 1
+  }
+})
