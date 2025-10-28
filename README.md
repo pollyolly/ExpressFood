@@ -5,26 +5,27 @@
 
 ### Run Mobile App
 ```
-$ npm react-native start
+$npm react-native start
 ```
 ### Animatable
 ```
-$ npm install react-native-animatable
+$npm install react-native-animatable
 ```
 ### React Native Reanimated
 Android
 ```
-$ npm install react-native-reanimated@2.2
+$npm install react-native-reanimated@2.2
 ```
 IOS
 ```
-$ npm install react-native-reanimated@3.6.2
+$npm install react-native-reanimated@3.6.2
 ```
 ### Icon Theme (React Native Elements)
 Android
 ```
-$ npm install @rneui/themed @rneui/base
-$ npm install react-native-vector-icons
+$npm install @rneui/themed
+$npm install react-native-vector-icons
+$npm install @rneui/base   //Install this after the react-native-safe-area-context installation
 ```
 android/app/build.gradle
 ```
@@ -48,59 +49,59 @@ MyProject/ios/MyProject/Info.plist
 ```
 ### Swiper
 ```
-$ npm install react-native-swiper
+$npm install react-native-swiper
 ```
 ### React Stack Navigation
 ```
-$ npm install @react-navigation/native @react-navigation/native-stack
-$ npm install react-native-screens react-native-safe-area-context
-$ cd project-folder/ios
-$ pod install
+$npm install @react-navigation/native @react-navigation/native-stack
+$npm install react-native-screens react-native-safe-area-context
+$cd project-folder/ios
+$pod install
 ```
 ### React Native Countdown Component
 ```
-$ npm install react-native-countdown-component
+$npm install react-native-countdown-component
 ```
 ### React Countdown
 ```
-$ npm react-native-countdown-component
+$npm react-native-countdown-component
 
 Problem: Error when Unmounting during Log-out
 ```
 ### React Bottom Tabs Navigation
 ```
-$ npm install @react-navigation/bottom-tabs
+$npm install @react-navigation/bottom-tabs
 ```
 ### React Drawer Navigation
 ```
-$ npm install @react-navigation/drawer
+$npm install @react-navigation/drawer
 ```
 ### Lodash 
 ```
-$ npm install lodash
+$npm install lodash
 ```
 ### React Native TabView
 ```
-$ npm install react-native-tab-view
+$npm install react-native-tab-view
 ```
 ### React Native Pager View
 ```
-$ npm install react-native-pager-view
+$npm install react-native-pager-view
 ```
 ### React Native Firebase
 ```
-$ npm install --save @react-native-firebase/app
+$npm install --save @react-native-firebase/app
 ```
 ```
 https://medium.com/@johnmark_76235/setup-react-native-firebase-f1f87b6bc1f6
 ```
 ### React Native Formik
 ```
-$ npm install formik --save
+$npm install formik --save
 ```
 ### React Native Firebase Auth
 ```
-$ npm install @react-native-firebase/auth
+$npm install @react-native-firebase/auth
 ```
 ### Troubleshoot
 Fix Installation: Install Sequence
