@@ -25,7 +25,7 @@ Android
 ```
 $npm install @rneui/themed
 $npm install react-native-vector-icons
-$npm install @rneui/base   //Install this after the react-native-safe-area-context installation
+$npm install @rneui/base   //Bug fix: Install this after the react-native-safe-area-context installation
 ```
 android/app/build.gradle
 ```
